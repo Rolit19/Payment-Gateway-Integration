@@ -1,0 +1,85 @@
+body {
+    background-image: url("../background.jpg");
+    background-size: 100% 100%;
+}
+
+.donate {
+    background-color: rgb(3, 3, 161);
+    height: 60px;
+    align-items: center;
+}
+
+.navbar {
+    float: left;
+    text-decoration: none;
+    margin: 2px 34px;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+.navbar:hover {
+    border-bottom: 4px solid white;
+}
+
+#headline {
+    float: right;
+}
+
+.tagline h1 {
+    margin-top: 63px;
+    margin-left: 48px;
+    font-size: 56px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(3, 3, 161);
+}
+
+.btn {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 6px 40px;
+    font-size: 26px;
+    margin-left: 52px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 3.3em;
+    animation: animate 1.5s linear infinite;
+}
+
+
+
+@keyframes animate {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.tagline h3 {
+    margin-top: 220px;
+    margin-left: 48px;
+    font-size: 33px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(39, 38, 38);
+    position: relative;
+    text-align: center;
+    font-size: large;
+    font-family: 'Dosis', sans-serif;
+    color: grey;
+    height: 30px;
+    width: 100%;
+}
